@@ -1,0 +1,53 @@
+:root {
+    --primary-color: rgba(39,49,55,0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    line-height: 1.7;
+}
+
+.bodies{
+    background: rgba(39,49,55,0.5);
+    line-height: 1.7;
+    height: 100vh;
+    /* overflow: auto; */
+    position: relative;
+}
+
+.bodies:before {
+  content: '';   
+  position: absolute;
+  background:url('../img/image1.jpg')no-repeat center center/cover;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.napo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    height: 60vh;
+
+}
+
+.bodies h1{
+    font-size: 3rem;
+    margin-top: 20%;
+}
+
+.fa-arrow-down {
+    margin-top: 1.7rem;
+    border: 2px solid #fff;
+    padding: 1rem;
+    border-radius: 50%;
+}
