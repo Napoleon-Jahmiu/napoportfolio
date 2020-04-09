@@ -13,6 +13,7 @@
 
 body, html {
     line-height: 1.7;
+    background: #333;
 }
 
 .bodies{
@@ -64,7 +65,8 @@ body, html {
 }
 
 .current {
-    color: #fff;
+    background: #fff;
+    
 }
 
 /* The Navbar Section */
@@ -76,6 +78,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    padding: 0 2rem;
     margin-top: 8rem;
 }
 
@@ -109,4 +112,32 @@ body, html {
     padding: 1rem;
     align-items: center;
     letter-spacing: 1rem;
+}
+
+.thebody {
+    background: #fff;
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: .5rem;
+    padding: 2rem;
+    margin: auto;
+    overflow: auto;
+}
+
+.item {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    
+}
+
+.item img {
+    padding: 2rem;
+    width: 500px;
+    height: 300px;
 }
